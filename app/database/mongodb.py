@@ -1,6 +1,6 @@
 import pymongo
 
-from model.student import createStudentModel, updateStudentModel
+from model.rides import createRidesModel, updateRidesModel
 
 
 class MongoDB:
@@ -39,22 +39,22 @@ class MongoDB:
     def find_one(self, id):
         return self.connection.find_one({"_id": id})
 
-    def create(self, student: createStudentModel):
-        student_dict = student.dict(exclude_unset=True)
+    def create(self, rides: createRidesModel):
+        rides_dict = rides.dict(exclude_unset=True)
 
-        insert_dict = {**student_dict, "_id": student_dict["id"]}
+        insert_dict = {**rides_dict, "_id": rides_dict["id"]}
 
         inserted_result = self.connection.insert_one(insert_dict)
-        student_id = str(inserted_result.inserted_id)
+        rides_id = str(inserted_result.inserted_id)
 
-        return student_id
+        return rides_id
 
-    def update(self, student_id, student: updateStudentModel):
+    def update(self, rides_id, rides: updateRidesModel):
         updated_result = self.connection.update_one(
-            {"id": student_id}, {"$set": student.dict(exclude_unset=True)}
+            {"id": rides_id}, {"$set": rides.dict(exclude_unset=True)}
         )
-        return [student_id, updated_result.modified_count]
+        return [rides_id, updated_result.modified_count]
 
-    def delete(self, student_id):
-        deleted_result = self.connection.delete_one({"id": student_id})
-        return [student_id, deleted_result.deleted_count]
+    def delete(self, rides_id):
+        deleted_result = self.connection.delete_one({"id": rides_id})
+        return [rides_id, deleted_result.deleted_count]

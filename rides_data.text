@@ -1,0 +1,110 @@
+{
+    "menupark_type" : "wristbandred"
+    "rides_name" : "abyss"
+    "id": "1000000001"
+    "price" : 1000
+    "picture_url" :"https://www.govivigo.com/content/upload/images/1a_News%26Promotion/e1.jpg"
+}
+
+
+{
+    "menupark_type" : "wristbandred"
+    "rides_name" : "boomerango"
+    "id": "1000000002"
+    "price" : 1000
+    "picture_url" :"https://www.govivigo.com/content/upload/images/1a_News%26Promotion/e2.jpg"
+
+}
+
+
+{
+    "menupark_type" : "wristbandred"
+    "rides_name" : "lazy river"
+    "id": "1000000003"
+    "price" : 1000
+    "picture_url" :"https://www.govivigo.com/content/upload/images/1a_News%26Promotion/e3.jpg"
+    
+}
+
+
+{
+    "menupark_type" : "wristbandred"
+    "rides_name" : "aqua course"
+    "id": "1000000004"
+    "price" : 1000
+    "picture_url" :"https://www.govivigo.com/content/upload/images/1a_News%26Promotion/e8.jpg"
+    
+}
+
+{
+    "menupark_type" : "wristbandred"
+    "rides_name" : "aqua loop"
+    "id": "1000000005"
+    "price" : 1000
+    "picture_url" :"https://www.govivigo.com/content/upload/images/1a_News%26Promotion/e5.jpg"
+    
+}
+
+{
+    "menupark_type" : "wristbandred"
+    "rides_name" : "surf areana"
+    "id": "1000000006"
+    "price" : 1000
+    "picture_url" :"https://paapaii.com/wp-content/uploads/2015/11/Cartoon-Network-Amazone-11.jpg"   
+}
+
+{
+    "menupark_type" : "wristbandred"
+    "rides_name" : "maga wave"
+    "id": "1000000007"
+    "price" : 1000
+    "picture_url" :"https://paapaii.com/wp-content/uploads/2015/11/Cartoon-Network-Amazone-13.jpg"   
+}
+
+
+{
+    "menupark_type" : "wristbandred"
+    "rides_name" : "intergalactic racers"
+    "id": "1000000008"
+    "price" : 1000
+    "picture_url" :"https://paapaii.com/wp-content/uploads/2015/11/Cartoon-Network-Amazone-12.jpg"   
+}
+
+{
+    "menupark_type" : "wristbandredx"
+    "rides_name" : "omniverse"
+    "rides_id": "1000000009"
+    "price" : 1000
+    "picture_url" :"https://paapaii.com/wp-content/uploads/2015/11/Cartoon-Network-Amazone-9.jpg"
+}
+
+
+{
+
+    "menupark_type" : "wristbandgreen"
+    "rides_name" : "maga wave"
+    "rides_id": "20000000001"
+    "price" : 500
+    "picture_url" :"https://paapaii.com/wp-content/uploads/2015/11/Cartoon-Network-Amazone-13.jpg"   
+}
+
+
+{
+    "menupark_type" : "wristbandgreen"
+    "rides_name" : "abyss"
+    "rides_id": "2000000002"
+    "price" : 500
+    "picture_url" :"https://www.govivigo.com/content/upload/images/1a_News%26Promotion/e1.jpg"
+    
+}
+
+
+{
+    "menupark_type" : "wristbandgreen"
+    "rides_name" : "intergalactic racers"
+    "rides_id": "2000000003"
+    "price" : 500
+    "picture_url" :"https://paapaii.com/wp-content/uploads/2015/11/Cartoon-Network-Amazone-12.jpg"   
+}
+
+
